@@ -1,16 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        padding: 0;
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.nier-encode {
+        font-family: "NierEncode", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+                Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+        color: inherit;
+        text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+@font-face {
+        font-family: "NierEncode";
+        src: url("./fonts/nier-encode/angelic-webfont.woff2") format("woff2"), url("./fonts/nier-encode/angelic-webfont.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: "font-nier";
+        src: url("./fonts/nier/fotrodin_pro_db-webfont.woff2") format("woff2"), url("./fonts/nier/fotrodin_pro_db-webfont.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
 }
