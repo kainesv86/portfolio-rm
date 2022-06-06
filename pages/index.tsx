@@ -17,6 +17,10 @@ const Home: NextPage = () => {
                                                 className="object-cover object-left-top w-full h-full"
                                         >
                                                 <source src="/bg.webm" type="video/webm" />
+                                                <source
+                                                        src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/601220/654fa1daf88611e1503e73cda1ef597cd5603b6c.webm"
+                                                        type="video/webm"
+                                                />
                                         </video>
                                 </div>
                         </div>
